@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gudina Adana - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h2>Gudina Adana</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Hello, I'm <span class="highlight">Gudina Adana</span></h1>
+                <p class="subtitle">Computer Science Student | Third Year</p>
+                <p class="description">Passionate about technology and software development</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="profile-section">
+                        <div class="profile-image">
+                            <img src="gude.jpg" alt="Gudina Adana" id="profileImg" class="loaded">
+                            <div class="upload-overlay">
+                                <input type="file" id="imageUpload" accept="image/*" style="display: none;">
+                                <button onclick="document.getElementById('imageUpload').click()" class="upload-btn">
+                                    Change Photo
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <p>I'm Gudina Adana, a dedicated third-year Computer Science student with a passion for learning and creating innovative solutions. Currently pursuing my degree, I'm focused on developing my skills in programming, software development, and problem-solving.</p>
+                        
+                        <div class="skills">
+                            <h3>Skills & Technologies</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">HTML</span>
+                                <span class="skill-tag">CSS</span>
+                                <span class="skill-tag">PHP</span>
+                                <span class="skill-tag">MySQL</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">Git</span>
+                                <span class="skill-tag">Problem Solving</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Project 1</h3>
+                        <p>Description of your first project. Add details about technologies used and what it accomplishes.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn small">View Code</a>
+                            <a href="#" class="btn small secondary">Live Demo</a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <h3>Project 2</h3>
+                        <p>Description of your second project. Highlight the key features and your role in development.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn small">View Code</a>
+                            <a href="#" class="btn small secondary">Live Demo</a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <h3>Project 3</h3>
+                        <p>Description of your third project. Mention any challenges overcome and lessons learned.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn small">View Code</a>
+                            <a href="#" class="btn small secondary">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p>I'm always open to discussing new opportunities and interesting projects.</p>
+                
+                <div class="contact-form-section">
+                    <div class="contact-form">
+                        <h3>Send Me a Message</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn primary">Send Message</button>
+                        </form>
+                    </div>
+                    
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p><a href="mailto:gudinaman9@gmail.com">gudinaman9@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <p><a href="tel:+251919326458">+251919326458</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">🎵</div>
+                            <div class="contact-details">
+                                <h4>TikTok</h4>
+                                <p><a href="https://www.tiktok.com/@gud2127?_r=1&_t=ZM-92xX9lDncYFf" target="_blank">@gud2127</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📘</div>
+                            <div class="contact-details">
+                                <h4>Facebook</h4>
+                                <p><a href="https://www.facebook.com/gudina.adana?mibextid=rS40aB7S9Ucbxw6v" target="_blank">Gudina Adana</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">✈️</div>
+                            <div class="contact-details">
+                                <h4>Telegram</h4>
+                                <p><a href="https://t.me/GudinaAdana" target="_blank">@GudinaAdana</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p>Ethiopia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Gudina Adana. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
